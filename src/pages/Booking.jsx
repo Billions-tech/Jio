@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
@@ -40,7 +40,7 @@ const BookingForm = () => {
   };
 
   return (
-    <div className="container mx-auto p-5 w-2/4   my-12  rounded-lg shadow-md border-yellow-800">
+    <div className=" mx-auto p-5 my-4">
       <h2 className="section-heading">Book a Room</h2>
       <form onSubmit={handleBooking} className="space-y-6 text-yellow-800">
         <div>
@@ -57,7 +57,6 @@ const BookingForm = () => {
             required
           />
         </div>
-        
 
         <div>
           <label htmlFor="roomType" className="block font-medium">

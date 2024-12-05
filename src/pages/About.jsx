@@ -31,7 +31,7 @@ const About = () => {
 
         {/* Image */}
         <motion.img
-          src="/src/assets/rep.jpeg"
+          src="/assets/rep.jpeg"
           alt="Hotel Exterior"
           className="w-[700px] mt-8 rounded-lg shadow-md"
           initial={{ opacity: 0, x: 100 }}

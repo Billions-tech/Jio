@@ -5,17 +5,17 @@ const Rooms = () => {
     {
       title: "Deluxe Room",
       description: "Spacious and luxurious.",
-      image: "/src/assets/room.jpeg",
+      image: "/assets/room.jpeg",
     },
     {
       title: "Suite",
       description: "For the ultimate comfort.",
-      image: "/src/assets/fum.jpeg",
+      image: "/assets/fum.jpeg",
     },
     {
       title: "Standard Room",
       description: "Cozy and affordable.",
-      image: "/src/assets/rom.jpeg",
+      image: "/assets/rom.jpeg",
     },
   ];
 
