@@ -6,7 +6,6 @@ const AboutUs = () => {
 
   return (
     <div className="container p-5 mx-auto my-12 mt-[180px]">
-      
       <h1 className="section-heading">About Us</h1>
 
       <motion.div
@@ -31,7 +30,7 @@ const AboutUs = () => {
 
         {/* Image */}
         <motion.img
-          src="/public/assets/rep.jpeg"
+          src="/assets/rep.jpeg"
           alt="Hotel Exterior"
           className="w-[700px] mt-8 rounded-lg shadow-md"
           initial={{ opacity: 0, x: 100 }}
