@@ -10,9 +10,13 @@ const HeroSection = ({ title, subtitle, videoUrl }) => {
           muted
         ></video>
       )}
-      <div className="relative text-center ">
-        <h1 className="text-4xl md:text-6xl  font-bold">{title}</h1>
-        <p className="mt-4 text-lg md:text-xl">{subtitle}</p>
+      <div className="relative text-center">
+        <h1 className="text-4xl md:text-6xl font-serif font-bold animate-fade-slide-in">
+          {title}
+        </h1>
+        <p className="mt-4 text-lg md:text-xl italic text-yellow-500 animate-fade">
+          {subtitle}
+        </p>
       </div>
     </section>
   );

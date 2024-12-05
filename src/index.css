@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #be952d; /* Tailwind yellow-500 */
+  text-align: center;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    #be952d,
+    #fbbf24
+  ); /* Gradient underline */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  border-radius: 2px;
+}
+
+@keyframes fade-slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-slide-in {
+  animation: fade-slide-in 1.5s ease-out;
+}
+
+.animate-fade {
+  animation: fade 2s ease-in;
+}

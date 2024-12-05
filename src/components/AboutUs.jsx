@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Gallery from "../components/Gallery";
 
-const About = () => {
+const AboutUs = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
     <div className="container p-5 mx-auto my-12 mt-[180px]">
+      
       <h1 className="section-heading">About Us</h1>
 
       <motion.div
@@ -31,7 +31,7 @@ const About = () => {
 
         {/* Image */}
         <motion.img
-          src="/src/assets/rep.jpeg"
+          src="/public/assets/rep.jpeg"
           alt="Hotel Exterior"
           className="w-[700px] mt-8 rounded-lg shadow-md"
           initial={{ opacity: 0, x: 100 }}
@@ -39,10 +39,8 @@ const About = () => {
           transition={{ duration: 1, ease: "easeOut" }}
         />
       </motion.div>
-
-      <Gallery />
     </div>
   );
 };
 
-export default About;
+export default AboutUs;
