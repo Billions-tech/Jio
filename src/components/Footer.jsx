@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="mb-4">
           <p className="text-lg">Follow us:</p>
           <div className="flex justify-center space-x-6">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+            <a href="https://www.facebook.com/profile.php?id=6155009936573" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
               <FaFacebook className="text-2xl" />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">

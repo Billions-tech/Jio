@@ -40,7 +40,7 @@ const BookingForm = () => {
   };
 
   return (
-    <div className=" mx-auto p-5 my-4">
+    <div className=" mx-auto p-10 my-9">
       <h2 className="section-heading">Book a Room</h2>
       <form onSubmit={handleBooking} className="space-y-6 text-yellow-800">
         <div>

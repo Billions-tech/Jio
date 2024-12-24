@@ -36,7 +36,7 @@ const Home = () => {
         />
 
         {/* Booking Section Overlay */}
-        <div className="absolute inset-x-0 top-[500px] z-20 flex justify-center ">
+        <div className="absolute inset-x-0 top-[590px]  z-20 flex justify-center ">
           <div className="rounded-lg w-11/12 max-w-xl">
             <BookingSection />
           </div>

@@ -1,6 +1,6 @@
 const HeroSection = ({ title, subtitle, videoUrl }) => {
   return (
-    <section className="relative h-screen flex items-center justify-center bg-black text-white mt-0">
+    <section className="relative h-screen flex items-center justify-center bg-black text-white ">
       {videoUrl && (
         <video
           className="absolute w-full h-full object-cover opacity-50"
@@ -14,7 +14,7 @@ const HeroSection = ({ title, subtitle, videoUrl }) => {
         <h1 className="text-4xl md:text-6xl font-serif font-bold animate-fade-slide-in">
           {title}
         </h1>
-        <p className="mt-4 text-lg md:text-xl italic text-yellow-500 animate-fade">
+        <p className="mt-2 text-lg md:text-xl italic text-yellow-500 animate-fade">
           {subtitle}
         </p>
       </div>

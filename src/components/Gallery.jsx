@@ -13,11 +13,12 @@ const Gallery = () => {
 
   return (
     <div className="flex flex-col items-center justify-center p-4">
-      {/* Collage Box */}
+
       <h2 className="section-heading" data-aos="fade-down">
         Gallery
       </h2>
-      <div className="grid grid-cols-6 gap-2 w-full h-[700px] max-w-4xl overflow-hidden rounded-lg shadow-lg">
+      
+      <div className="grid grid-cols-6 gap-2 w-full h-[700px] max-w-4xl overflow-hidden rounded-lg mt-4 shadow-lg">
      
         
         {images.map((image, index) => (
@@ -25,13 +26,13 @@ const Gallery = () => {
             key={image.id}
             className={`relative group ${
               index === 0
-                ? "col-span-3 row-span-2"
+                ? "col-span-3 row-span-3"
                 : index === 1
                 ? "col-span-2 row-span-1"
                 : index === 2
                 ? "col-span-1 row-span-1"
                 : index === 3
-                ? "col-span-2 row-span-1"
+                ? "col-span-2 row-span-2"
                 : index === 4
                 ? "col-span- row-span-2"
                 : "col-span-2 row-span-1"

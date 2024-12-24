@@ -23,15 +23,15 @@ const Testimonial = () => {
   return (
     <section className=" py-12">
       <div className="container bg-yellow-100 mx-auto px-6 p-10 text-center">
-        <h2 className="section-heading mb-4">What Our Guests Say</h2>
+        <h2 className="section-heading">What Our Guests Say</h2>
         <div className="grid md:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="p-6 bg-white rounded-lg shadow-lg flex flex-col items-center"
+              className="p-6 mt-4 bg-white rounded-lg shadow-lg flex flex-col items-center"
             >
-              <p className="italic text-gray-700 mb-4">"{testimonial.quote}"</p>
-              <h3 className="text-lg font-bold text-yellow-800">
+              <p className="italic text-gray-700 text-lg mb-4">"{testimonial.quote}"</p>
+              <h3 className="text-lg font-bold text-gray-800">
                 {testimonial.name}
               </h3>
               <span className="text-sm text-yellow-600">

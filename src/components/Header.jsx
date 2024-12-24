@@ -15,7 +15,10 @@ const Header = () => {
           <div className="lg:flex justify-around gap-10 leading-5 items-center">
             <span className="flex gap-1 items-center">
               <MdOutlineMail />
-              <a href="mailto:jioroyalinn@gmail.com" className="hover:text-yellow-400">
+              <a
+                href="mailto:jioroyalinn@gmail.com"
+                className="hover:text-yellow-400"
+              >
                 jioroyalinn@gmail.com
               </a>
             </span>
